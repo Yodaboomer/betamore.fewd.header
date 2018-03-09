@@ -1,0 +1,11 @@
+header {
+  font-family: sans-serif;
+}
+
+
+.container {
+  display:flex;
+  margin: 0 auto;
+  border: 5px blue;
+  width: 50em;
+}
