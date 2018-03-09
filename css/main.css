@@ -1,11 +1,31 @@
+
+
+
 header {
-  font-family: sans-serif;
+  display: flex;
+  justify-content: space-between;
 }
 
 
-.container {
-  display:flex;
-  margin: 0 auto;
-  border: 5px blue;
-  width: 50em;
+body {
+  margin: 2em auto;
+  width: 64em;
+
 }
+
+nav ul {
+  list-style: none;
+  display: flex;
+  justify-content: space-around;
+  width: 17em;
+
+}
+nav a {
+  text-decoration: none;
+  color: black;
+  background-color: orange;
+  padding: 5px;
+  border-radius: 4px;
+  
+}
+/* body, h1, h2, ul, ol */
